@@ -36,18 +36,19 @@ $ export DATABASE=<database name>
 
 Below is db schema required for project setup:
 
-![Alt text](images/describe.jpg)
+![Alt text](images/mailbox.jpg)
 
 
 ## Usage
 
 Once env variables have been set run the server using below command:
 
-1. ```bash
+1. 
+```bash
 $ uvicorn applyRules:app --reload
 ```
 
-2. Run the apis from run.http file included in the project by clicking on 'Send Request'
+2. Run the apis from run.http file included in the project by clicking on Send Request
 
 ![Alt text](images/apicalls.jpg)
 
